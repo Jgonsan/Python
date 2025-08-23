@@ -1,0 +1,20 @@
+# Ignorar ambiente virtual
+.venv/
+
+# Ignorar checkpoints de notebooks
+.ipynb_checkpoints/
+
+# Ignorar arquivos de ambiente do Python
+.env
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+
+# Arquivos do VS Code
+.vscode/
+
+# Arquivos temporários
+*.log
+*.swp
+*.bak
