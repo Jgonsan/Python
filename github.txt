@@ -1,0 +1,40 @@
+#Criando a chave ssh
+ssh-keygen -t rsa -b 4096 -C "jhonatangoncalves.sa@gmail.com"
+#Entrando na pasta da chave ssh
+cd ~/.ssh/
+#Gerar a chave que precisa ser copiada para o github
+cat id_rsa.pub
+#logar no git pelo terminal
+git config --global user.name "jgonsan"
+git config --global user.email "jhonatangoncalves.sa@gmail.com"
+#
+git init
+
+#Criar a pasta ignore
+touch .gitignore
+#colocar o arquivo .env na pasta ignore
+echo .env >> .gitignore
+
+#adicionar o arquivo 
+git add .
+git commit -m "Commit inicial: adicionando notebooks e configurando .gitignore"
+
+#Consultar a branch
+git branch
+
+#ver todas a branch 
+git branch -a
+
+#criar uma branch
+git checkout -b dev
+
+#alterar a branch
+git checkout master
+
+#criar a branch no repositorio
+git push --set-upstream origin dev
+
+
+#consultar os commit
+git log --graph --all
+

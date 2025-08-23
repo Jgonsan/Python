@@ -1,0 +1,25 @@
+#Consultar a versão do py
+python3 --version
+#Entrar no py
+python3
+# Cria o ambiente virtual
+python3 -m venv .venv
+# Ativa o ambiente virtual
+source .venv/bin/activate
+#Instalar o pacote pip de instalação
+sudo apt install python3-pip
+# Agora você pode instalar pacotes com pip normalmente
+pip install pandas
+pip install jupyter
+#Abrir o jupyter
+jupyter notebook
+#Alterar o tema
+pip install jupyterthemes
+jt -l
+jt -t chesterish
+#Instalar o VCode.
+sudo snap install code --classic
+
+
+
+
