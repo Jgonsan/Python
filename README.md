@@ -19,28 +19,26 @@ git clone https://github.com/Jgonsan/Python
 cd seu-repositorio
 ```
 
-```bash
-### 2. Crie e ative o ambiente virtual
 
+### 2. Crie e ative o ambiente virtual
+```bash
 python3 -m venv .venv
 source .venv/bin/activate
 ```
 
-```bash
-### 3. Instale as dependências
 
+### 3. Instale as dependências
+```bash
 pip install -r requirements.txt
 ```
 
-```bash
 ### 4. (Opcional) Ative o kernel Jupyter
-
+```bash
 python -m ipykernel install --user --name=python-venv --display-name "Python (.venv)"
 ```
 
-```bash
 ### 🧪 Rodar os notebooks
-
+```bash
 Você pode abrir os arquivos .ipynb usando:
 
 VS Code com a extensão Python/Jupyter
