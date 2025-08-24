@@ -37,11 +37,11 @@ pip install -r requirements.txt
 python -m ipykernel install --user --name=python-venv --display-name "Python (.venv)"
 ```
 
+
 ### 🧪 Rodar os notebooks
-```bash
+
 Você pode abrir os arquivos .ipynb usando:
 
-VS Code com a extensão Python/Jupyter
+- VS Code com a extensão Python/Jupyter
 
-Jupyter Lab / Jupyter Notebook
-```
+- Jupyter Lab / Jupyter Notebook 
