@@ -10,6 +10,9 @@ git config --global user.email "jhonatangoncalves.sa@gmail.com"
 #
 git init
 
+git config --global user.name "jgonsan"
+git config --global user.email "jhonatangoncalves.sa@gmail.com"
+
 #Criar a pasta ignore
 touch .gitignore
 #colocar o arquivo .env na pasta ignore
@@ -37,4 +40,12 @@ git push --set-upstream origin dev
 
 #consultar os commit
 git log --graph --all
+
+#Instalar
+pip install ipykernel
+
+pip freeze > requirements.txt
+pip install -r requirements.txt
+
+
 
