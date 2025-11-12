@@ -47,5 +47,10 @@ pip install ipykernel
 pip freeze > requirements.txt
 pip install -r requirements.txt
 
+#Abrir o LM studio
+
+cd ~/Downloads
+./LM-Studio-0.3.31-7-x64.AppImage --no-sandbox
+
 
 
