@@ -18,3 +18,7 @@ __pycache__/
 *.log
 *.swp
 *.bak
+
+#arquivos de texto
+github.txt
+Python.txt
